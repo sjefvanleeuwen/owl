@@ -34,7 +34,7 @@ steps:
     command: 'test'
     projects: '**/*.csproj'
     arguments: '--configuration $(BuildConfiguration)  /p:CollectCoverage=true  /p:CoverletOutputFormat=cobertura   /p:CoverletOutput=$(Build.SourcesDirectory)\TestResults\Coverage\'
-    testRunTitle: 'Urukagina Core Test'
+    testRunTitle: 'Tests'
     nobuild: true
 
 - task: Palmmedia.reportgenerator.reportgenerator-build-release-task.reportgenerator@4
