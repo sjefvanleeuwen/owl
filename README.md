@@ -8,7 +8,7 @@
 
 ## Status
 
-This is not a complete OWL Ontology reader/writer implementation. It reads and writes the WebVOWL Json Specification. WebVOWL can be found at: http://www.visualdataweb.de/webvowl
+This is not a complete OWL Ontology reader/writer implementation. It reads and writes the WebVOWL Json Specification.
 
 Unit Test currently produces an owl:class with a DataProperty with a corresponding Datatype.
 ![img](./docs/img/create-class.json.svg)
